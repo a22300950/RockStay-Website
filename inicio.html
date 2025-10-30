@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Iniciar Sesión</title>
+	<link rel="stylesheet" type="text/css" href="styles/inicio.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<div class="container-fluid toolbar">
+		<!--<img class="imgToolbar toolbar" src="res/icon/toolbar.png">-->
+		<h1>@RockStay - Inicio de sesión</h1>
+	</div>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row seccion1">
+			<div class="col-md-6">
+				<div class="card">
+      				<div class="card-body">
+        				<h5 class="card-title">Login</h5>
+        				<label for="exampleFormControlInput1" class="form-label">Correo</label>
+  						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        				<label for="inputPassword5" class="form-label">Contraseña</label>
+						<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+						<br>
+						<button type="submit" class="btn btn-light mb-3">Iniciar sesión</button>
+						<div id="passwordHelpBlock" class="form-text">
+							¿Olvidaste tu contraseña?
+						</div>
+      				</div>
+    			</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+      				<div class="card-body">
+        				<h5 class="card-title">Registro</h5>
+        				<label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+  						<input class="form-control" type="text" placeholder="TuNombre" aria-label="default input example">
+  						<label for="exampleFormControlInput1" class="form-label">Correo</label>
+  						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        				<label for="inputPassword5" class="form-label">Contraseña</label>
+						<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+						<br>
+						<button type="submit" class="btn btn-light mb-3">Crear cuenta</button>
+						<div id="passwordHelpBlock" class="form-text">
+							La contraseña debe contener al menos 8 caracteres y combinar letras y números.
+						</div>
+      				</div>
+    			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

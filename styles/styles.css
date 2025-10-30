@@ -1,0 +1,59 @@
+.toolbar{
+	background-color: white;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+/*.toolbar img{
+	height: 50px;
+	width: auto;
+}*/
+
+.toolbar h1{
+	color: black;
+	font-family: raleway;
+	font-size: 42px;
+	padding-top: 9px;
+}
+
+.links{
+	position: absolute;
+  	right: 20px;   
+  	font-size: 16px;
+  	max-width: 35%;
+}
+
+.links button{
+  	text-decoration: none;
+  	color: black;
+}
+
+.seccion1{
+	background-color: #232323;
+	height: 33vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-card{
+	height: 90%; 
+	width: 70%;
+}
+
+.cardImg{
+	width: 25vh;
+}
+
+.seccion2{
+	height: 100vh;
+  	background-image: url('../res/bg/main.webp'); 
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+}
