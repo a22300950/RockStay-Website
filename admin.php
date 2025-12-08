@@ -45,33 +45,11 @@ if ($result) {
 
     <div class="container-fluid toolbar">
         <h5>@Hotel - Panel administrador</h5>
-        <a href="index.html" class="btn btn-outline-light btn-sm">Volver a Inicio</a>
+        <a href="index.php" class="btn btn-outline-light btn-sm">Volver a Inicio</a>
     </div>
 
     <div class="container py-5">
         <div class="row">
-
-            <div class="col-md-4 mb-4">
-                <div class="content-box mb-4">
-                    <h4 class="mb-3">Gestión rápida</h4>
-                    <div class="d-grid">
-                        <button class="btn btn-secondary text-white btn-sm">Actualizar disponibilidad</button>
-                    </div>
-                </div>
-
-                <div class="content-box">
-                    <h4 class="mb-3">Servicios adicionales</h4>
-                    <form id="servicios-form">
-                        <div class="mb-3 text-muted small">
-                            Servicios disponibles (cargar desde BD).
-                        </div>
-                        
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-secondary text-white btn-sm">Guardar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
 
             <div class="table-responsive">
     <table class="table table-striped table-hover align-middle">
