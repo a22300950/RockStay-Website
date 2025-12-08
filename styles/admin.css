@@ -1,0 +1,65 @@
+/* Base de estilos (puedes reutilizar el toolbar y el body de calificaciones.css) */
+body {
+    background-color: #f0f0f0;
+}
+
+.toolbar{
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.toolbar h5{
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt; 
+    text-align: center;
+    position: absolute;
+}
+
+.toolbar a{
+    margin-left: auto;
+}
+
+/* Estilo para las cajas de contenido blancas */
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los botones en la sección de Acción de la tabla */
+.table button {
+    width: 120px; /* Ancho fijo para alineación */
+}
+
+/* Estilos específicos de botones para imitar la imagen */
+.btn-secondary {
+    background-color: #6c757d; 
+    border-color: #6c757d;
+}
+
+/* Botones pequeños y oscuros */
+.btn-sm.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+}
+
+/* Botón "Marcar disponible" (blanco/claro en la imagen) */
+.btn-sm.btn-light {
+    background-color: white;
+    color: #212529; /* Color de texto oscuro */
+}
+
+/* Ajuste del color de encabezado de la tabla */
+.table-light th {
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+}

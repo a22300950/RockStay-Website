@@ -1,0 +1,51 @@
+.toolbar{
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.toolbar h5{
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt; 
+    text-align: center;
+    position: absolute;
+}
+
+.toolbar a{
+    margin-left: auto;
+}
+
+/* Estilos CSS personalizados para los contenedores de las secciones (Cards) */
+.reservation-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 30px; /* Espacio entre las tarjetas */
+}
+/* Estilo para simular el fondo con un degradado oscuro (opcional) */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../res/img/bg/reservas.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+/* Estilo para la línea azul en la selección personalizada (visto en la imagen) */
+.custom-checkbox-line {
+    /* La línea azul que estaba en la imagen original bajo "Palapas" */
+    border-bottom: 2px solid #0d6efd; /* Color azul de Bootstrap */
+    padding-bottom: 5px;
+    display: inline-block;
+}
+/* Estilo para la sección de resumen/pago (4) */
+.payment-summary {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-top: 15px;
+}

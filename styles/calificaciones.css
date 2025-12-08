@@ -1,0 +1,51 @@
+/* Estilos generales para el fondo y la estructura */
+body {
+    background-color: #f0f0f0; /* Fondo gris claro similar a la imagen */
+}
+
+.toolbar{
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.toolbar h5{
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt; 
+    text-align: center;
+    position: absolute;
+}
+
+.toolbar a{
+    margin-left: auto;
+}
+
+/* Contenedores principales (donde está la tabla y la forma) */
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para la tabla (Historial) */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Estilo para la sección de calificación (la caja de texto más grande) */
+#calificacion-input {
+    min-height: 50px; /* Hace el campo de calificación más alto */
+}
+
+/* Ajuste del color de encabezado de la tabla para que coincida con la imagen (gris claro) */
+.table-light th {
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+}

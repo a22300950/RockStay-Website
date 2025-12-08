@@ -1,0 +1,20 @@
+.toolbar{
+    color: white;
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar h5{
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt; 
+}
+
+.seccion1{
+    height: 45vh;
+}
